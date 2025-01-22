@@ -1,0 +1,6 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Validate product listing page displays correctly.,Open product listing page and verify layout.,Products displayed correctly with proper layout.,Products displayed correctly.,Passed,high,Test passed without issues.
+TC002,Check API error handling and fallback UI.,Simulate API failure and check displayed error message.,Error message: 'Unable to load products. Please try again later.',Error message displayed as expected.,Passed,Medium,Fallback UI tested successfully.
+TC003,"Test cart functionality for add, update, and remove actions.","Add a product to the cart, update quantity, and remove product.",Cart functionality works smoothly without errors.,Cart functionality performed as expected.,Passed,High,All cart operations functional.
+TC004,Ensure responsiveness on mobile and tablet devices.,Test the UI on different screen sizes using BrowserStack.,UI adjusts seamlessly across all tested devices.,Responsive design works well on all devices.,Passed,high,Responsive on all devices.
+TC005,Validate secure API communication and input sanitization.,Inspect API calls and validate user input with invalid data.,"API calls are secure, and invalid inputs are rejected.",API and input validations are secure.,Passed,High,Security measures are implemented properly.
